@@ -1,6 +1,6 @@
 ---
 title: Java Developer Interview Questions
-description: Essential Java Developer Interview Questions ranjit.
+description: Java developer interview questions covering various topics from core Java concepts to advanced Java EE frameworks and problem-solving.
 author: cotes
 date: 2024-07-15 10:06:00 +0800
 categories: [Blogging, Tutorial]
@@ -9,9 +9,6 @@ pin: true
 math: true
 mermaid: true
 ---
-# Java Developer Interview Questions
-
-Java developer interview questions covering various topics from core Java concepts to advanced Java EE frameworks and problem-solving.
 
 ## Core Java Concepts
 
