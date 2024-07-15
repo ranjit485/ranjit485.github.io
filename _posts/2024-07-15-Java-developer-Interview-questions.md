@@ -1,7 +1,7 @@
 ---
 title: Java Developer Interview Questions
 description: Java developer interview questions covering various topics from core Java concepts to advanced Java EE frameworks and problem-solving.
-author: cotes
+author: ranjit
 date: 2024-07-15 10:06:00 +0800
 categories: [Blogging, Tutorial]
 tags: [typography]
