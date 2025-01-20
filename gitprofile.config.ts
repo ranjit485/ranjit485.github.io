@@ -1,52 +1,33 @@
-// gitprofile.config.ts
-
 const CONFIG = {
   github: {
-    username: 'ranjit485', // Your GitHub org/user name. (This is the only required config)
+    username: 'ranjit485',
   },
-  /**
-   * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
-   * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
-   * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
-   */
   base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
-      header: 'Github Projects',
-      mode: 'manual', // Mode can be: 'automatic' or 'manual'
-      automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
-        exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
-        },
-      },
+      display: true,
+      header: 'GitHub Projects',
+      mode: 'manual',
       manual: {
-        // Properties for manually specifying projects
-        projects: ['ranjit485/freetube','ranjit485/canigo', 'ranjit485/mathsolver'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['ranjit485/freetube', 'ranjit485/canigo', 'ranjit485/mathsolver'],
       },
     },
     external: {
-      header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
+      header: 'Highlighted Projects',
       projects: [
         {
           title: 'Present Sir',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
+          description: 'A smart college bus tracking app enabling real-time tracking and better engagement through notifications.',
+          imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
-        }
+        },
       ],
     },
   },
   seo: {
-    title: 'Ranjit Patil Artificial Intelligence and Machine learning engineer',
-    description: 'Artificial Intelligence and Machine learning engineer',
-    imageURL: '',
+    title: 'Ranjit Patil | AI & Machine Learning Engineer | SaaS Expert',
+    description: 'Showcasing expertise in Artificial Intelligence, Machine Learning, SaaS development, and cutting-edge technologies. Explore projects, skills, and achievements.',
+    imageURL: 'https://example.com/ranjit-profile.jpg',
   },
   social: {
     linkedin: 'ranjit485',
@@ -56,39 +37,46 @@ const CONFIG = {
     email: 'patilranjit485@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
   },
   skills: [
-    'Spring Framework',
-    'Data Structure',
-    'SaaS Devlopment',
-    'JUnit',
-    'API Testing',
-    'Selenium Testing',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-  ],
+  'Spring Framework',
+  'SaaS Development',
+  'RBAC (Role-Based Access Control)',
+  'MVC Pattern',
+  'Microservices',
+  'Docker',
+  'Git',
+  'GitHub',
+  'PostgreSQL',
+  'MongoDB',
+  'MySQL',
+  'JUnit',
+  'API Testing',
+  'SEO',
+  'Selenium Testing',
+  'React.js',
+  'Node.js',
+  'RESTful APIs',
+  'Data Structures',
+  'Algorithms',
+  'Linux Server Management',
+  'Multi-Tenant Architecture',
+  'Debugging & Error Handling',
+],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Tech Solutions Pvt Ltd',
+      position: 'Software Engineer Intern',
+      from: 'July 2024',
       to: 'Present',
       companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Freelance Projects',
+      position: 'Full Stack Developer',
+      from: 'June 2021',
+      to: 'June 2024',
     },
   ],
   certifications: [
@@ -102,95 +90,47 @@ const CONFIG = {
   educations: [
     {
       institution: 'AITRC Vita',
-      degree: 'BTech in AIML',
+      degree: 'B.Tech in Artificial Intelligence & Machine Learning',
       from: '2024',
       to: '2027',
     },
     {
       institution: 'MSBTE',
-      degree: 'Diploma in computer Science',
+      degree: 'Diploma in Computer Science',
       from: '2021',
       to: '2024',
     },
   ],
-  // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    source: 'dev',
+    username: 'ranjit485',
+    limit: 2,
   },
   googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+    id: 'G-XXXXXXXXXX',
   },
-  // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '',
+    id: '1234567',
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
-
-    // Hides the switch in the navbar
-    // Useful if you want to support a single color mode
+    defaultTheme: 'business',
     disableSwitch: false,
-
-    // Should use the prefers-color-scheme media-query,
-    // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
-
-    // Display the ring in Profile picture
+    respectPrefersColorScheme: true,
     displayAvatarRing: true,
-
-    // Available themes. To remove any theme, exclude from here.
-    themes: [
-      'light',
-      'dark',
-      'cupcake',
-      'bumblebee',
-      'emerald',
-      'corporate',
-      'synthwave',
-      'retro',
-      'cyberpunk',
-      'valentine',
-      'halloween',
-      'garden',
-      'forest',
-      'aqua',
-      'lofi',
-      'pastel',
-      'fantasy',
-      'wireframe',
-      'black',
-      'luxury',
-      'dracula',
-      'cmyk',
-      'autumn',
-      'business',
-      'acid',
-      'lemonade',
-      'night',
-      'coffee',
-      'winter',
-      'dim',
-      'nord',
-      'sunset',
-      'procyon',
-    ],
-
-    // Custom theme, applied to `procyon` theme
+    themes: ['business', 'light', 'dark', 'lofi', 'luxury', 'night', 'winter'],
     customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
+      primary: '#0d6efd',
+      secondary: '#6c757d',
+      accent: '#0dcaf0',
+      neutral: '#212529',
+      'base-100': '#f8f9fa',
+      '--rounded-box': '1rem',
+      '--rounded-btn': '0.5rem',
     },
   },
-
   enablePWA: true,
 };
 
 export default CONFIG;
+    
