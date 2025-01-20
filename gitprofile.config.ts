@@ -3,15 +3,6 @@ const CONFIG = {
     username: 'ranjit485',
   },
   base: '/',
-  projects: {
-    github: {
-      display: true,
-      header: 'GitHub Projects',
-      mode: 'manual',
-      manual: {
-        projects: ['ranjit485/freetube', 'ranjit485/canigo', 'ranjit485/mathsolver'],
-      },
-    },
     external: {
       header: 'Highlighted Projects',
       projects: [
@@ -22,6 +13,15 @@ const CONFIG = {
           link: 'https://example.com',
         },
       ],
+    },
+  projects: {
+    github: {
+      display: true,
+      header: 'GitHub Projects',
+      mode: 'manual',
+      manual: {
+        projects: ['ranjit485/freetube', 'ranjit485/canigo', 'ranjit485/mathsolver'],
+      },
     },
   },
   seo: {
