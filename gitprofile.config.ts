@@ -32,7 +32,7 @@ const CONFIG = {
   social: {
     linkedin: 'ranjit485',
     instagram: '_ranjit_patil',
-    website: 'https://www.arifszn.com',
+    website: 'https://ranjit485.blogspot.com/?m=1',
     phone: '7499491002',
     email: 'patilranjit485@gmail.com',
   },
@@ -102,11 +102,6 @@ const CONFIG = {
       to: '2024',
     },
   ],
-  blog: {
-    source: 'dev',
-    username: 'ranjit485',
-    limit: 2,
-  },
   googleAnalytics: {
     id: 'G-XXXXXXXXXX',
   },
