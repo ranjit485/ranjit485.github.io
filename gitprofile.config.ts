@@ -80,13 +80,14 @@ const CONFIG = {
     },
   ],
   certifications: [
-    {
-      name: 'Spring Framework',
-      body: 'Spring 6 and Spring Boot3',
-      year: 'March 2024',
-      link: 'https://example.com',
-    },
-  ],
+  {
+    name: 'Spring Framework 6',
+    body: 'Udemy Course by Navin Reddy',
+    year: '2024',
+    description: 'Completed the comprehensive Spring 6 course by Navin Reddy on Udemy, gaining in-depth knowledge of the latest Spring technologies, including Spring Boot 3, Dependency Injection, Spring Security, and advanced REST API development.',
+    link: 'https://www.udemy.com/course/spring-framework-6/' // Add the course URL if available
+  },
+],
   educations: [
     {
       institution: 'AITRC Vita',
