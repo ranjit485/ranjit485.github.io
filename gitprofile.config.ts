@@ -1,4 +1,4 @@
-const CONFIG = {
+const CONFIG = {  
   github: {
     username: 'ranjit485',
   },
