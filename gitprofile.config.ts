@@ -3,18 +3,18 @@ const CONFIG = {
     username: 'ranjit485',
   },
   base: '/',
-    external: {
+  projects: {
+      external: {
       header: 'Highlighted Projects',
       projects: [
         {
           title: 'Present Sir',
-          description: 'A smart college bus tracking app enabling real-time tracking and better engagement through notifications.',
+          description: 'A smart Bus location tracking app enabling real-time tracking and better engagement through notifications.1000 Active user's',
           imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+          link: 'https://presentsir-app.netlify.app/',
         },
       ],
     },
-  projects: {
     github: {
       display: true,
       header: 'GitHub Projects',
@@ -82,7 +82,7 @@ const CONFIG = {
   certifications: [
   {
     name: 'Java Spring Framework 6 with Spring Boot 3',
-    body: 'Completed the comprehensive Spring 6 course by Navin Reddy on Udemy, gaining in-depth knowledge of the latest Spring technologies, including Spring Boot 3, Dependency Injection, Spring Security, and advanced REST API development',
+    body: 'Master Java, Spring 6 and Spring Boot 3 with JDBC, JPA, Security, Docker and Microservices with Telusko',
     year: '2024',
     description: 'Completed the comprehensive Spring 6 course by Navin Reddy on Udemy, gaining in-depth knowledge of the latest Spring technologies, including Spring Boot 3, Dependency Injection, Spring Security, and advanced REST API development.',
     link: 'https://www.udemy.com/course/spring-framework-6/' // Add the course URL if available
@@ -91,7 +91,7 @@ const CONFIG = {
   educations: [
     {
       institution: 'AITRC Vita',
-      degree: 'B.Tech in Artificial Intelligence & Machine Learning',
+      degree: 'B.Tech AI&ML',
       from: '2024',
       to: '2027',
     },
@@ -110,7 +110,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'business',
+    defaultTheme: 'lofi',
     disableSwitch: false,
     respectPrefersColorScheme: true,
     displayAvatarRing: true,
