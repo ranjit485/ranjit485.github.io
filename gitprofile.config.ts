@@ -9,7 +9,7 @@ const CONFIG = {
       projects: [
         {
           title: 'Present Sir',
-          description: 'A smart Bus location tracking app enabling real-time tracking and better engagement through notifications.1000 Active user's',
+          description: 'A smart Bus location tracking app enabling real-time tracking and better engagement through notifications.1000+ Active users',
           imageUrl: 'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://presentsir-app.netlify.app/',
         },
