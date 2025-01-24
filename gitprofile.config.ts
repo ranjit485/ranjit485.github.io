@@ -20,7 +20,7 @@ const CONFIG = {
       header: 'GitHub Projects',
       mode: 'manual',
       manual: {
-        projects: ['ranjit485/freetube', 'ranjit485/canigo','ranjit485/smartdb', 'ranjit485/mathsolver'],
+        projects: ['ranjit485/freetubeapp', 'ranjit485/canigo','ranjit485/smartdb', 'ranjit485/mathsolver'],
       },
     },
   },
