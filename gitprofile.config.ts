@@ -9,7 +9,7 @@ const CONFIG = {
       projects: [
         {
           title: 'Present Sir',
-          description: 'A smart Bus location tracking app enabling real-time tracking and better engagement through notifications.1000+ Active users',
+          description: 'Developed an Android app with a Spring Boot backend to track buses in real-time, serving over 1,000 daily users. Features include live location updates and push notifications for enhanced student safety and convenience.',
           imageUrl: 'https://presentsir-app.netlify.app/assets/images/appicon.png',
           link: 'https://presentsir-app.netlify.app/',
         },
@@ -46,8 +46,6 @@ const CONFIG = {
   'MVC Pattern',
   'Microservices',
   'Docker',
-  'Git',
-  'GitHub',
   'PostgreSQL',
   'MongoDB',
   'MySQL',
@@ -55,7 +53,7 @@ const CONFIG = {
   'API Testing',
   'SEO',
   'Selenium Testing',
-  'React.js',
+  'Version Control',
   'Node.js',
   'RESTful APIs',
   'Data Structures',
@@ -75,7 +73,7 @@ const CONFIG = {
     {
       company: 'Freelance Projects',
       position: 'Full Stack Developer',
-      from: 'June 2021',
+      from: 'June 2024',
       to: 'June 2024',
     },
   ],
