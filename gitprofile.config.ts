@@ -4,7 +4,7 @@ const CONFIG = {
   },
   base: '/',
   projects: {
-      external: {
+    external: {
       header: 'Highlighted Projects',
       projects: [
         {
@@ -20,7 +20,7 @@ const CONFIG = {
       header: 'GitHub Projects',
       mode: 'manual',
       manual: {
-        projects: ['ranjit485/freetubeapp', 'ranjit485/canigo','ranjit485/smartdb', 'ranjit485/mathsolver'],
+        projects: ['ranjit485/freetubeapp', 'ranjit485/canigo', 'ranjit485/smartdb', 'ranjit485/mathsolver'],
       },
     },
   },
@@ -40,45 +40,45 @@ const CONFIG = {
     fileUrl: 'https://drive.google.com/file/d/17-kD8esWTydaBDoBzgfaPNiW5g5GBNNF/view?usp=drivesdk',
   },
   skills: [
-  'Spring Framework',
-  'SaaS Development',
-  'RBAC (Role-Based Access Control)',
-  'MVC Pattern',
-  'Microservices',
-  'Docker',
-  'PostgreSQL',
-  'MongoDB',
-  'MySQL',
-  'JUnit',
-  'API Testing',
-  'SEO',
-  'Selenium Testing',
-  'Version Control',
-  'Node.js',
-  'RESTful APIs',
-  'Data Structures',
-  'Algorithms',
-  'Linux Server Management',
-  'Multi-Tenant Architecture',
-  'Debugging & Error Handling',
-],
+    'Spring Framework',
+    'SaaS Development',
+    'RBAC (Role-Based Access Control)',
+    'MVC Pattern',
+    'Microservices',
+    'Docker',
+    'PostgreSQL',
+    'MongoDB',
+    'MySQL',
+    'JUnit',
+    'API Testing',
+    'SEO',
+    'Selenium Testing',
+    'Version Control',
+    'Node.js',
+    'RESTful APIs',
+    'Data Structures',
+    'Algorithms',
+    'Linux Server Management',
+    'Multi-Tenant Architecture',
+    'Debugging & Error Handling',
+  ],
   experiences: [
     {
       company: 'Freelance Projects',
       position: 'Full Stack Developer',
       from: 'June 2024',
       to: 'June 2024',
-    }
+    },
   ],
   certifications: [
-  {
-    name: 'Java Spring Framework 6 with Spring Boot 3',
-    body: 'Master Java, Spring 6 and Spring Boot 3 with JDBC, JPA, Security, Docker and Microservices with Telusko',
-    year: '2024',
-    description: 'Completed the comprehensive Spring 6 course by Navin Reddy on Udemy, gaining in-depth knowledge of the latest Spring technologies, including Spring Boot 3, Dependency Injection, Spring Security, and advanced REST API development.',
-    link: 'https://www.udemy.com/course/spring-framework-6/' // Add the course URL if available
-  },
-],
+    {
+      name: 'Java Spring Framework 6 with Spring Boot 3',
+      body: 'Master Java, Spring 6 and Spring Boot 3 with JDBC, JPA, Security, Docker and Microservices with Telusko',
+      year: '2024',
+      description: 'Completed the comprehensive Spring 6 course by Navin Reddy on Udemy, gaining in-depth knowledge of the latest Spring technologies, including Spring Boot 3, Dependency Injection, Spring Security, and advanced REST API development.',
+      link: 'https://www.udemy.com/course/spring-framework-6/', 
+    },
+  ],
   educations: [
     {
       institution: 'AITRC Vita',
