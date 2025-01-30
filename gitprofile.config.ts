@@ -68,7 +68,7 @@ const CONFIG = {
       position: 'Full Stack Developer',
       from: 'June 2024',
       to: 'June 2024',
-    },
+    }
   ],
   certifications: [
   {
