@@ -37,7 +37,7 @@ const CONFIG = {
     email: 'patilranjit485@gmail.com',
   },
   resume: {
-    fileUrl: 'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf',
+    fileUrl: 'https://drive.google.com/file/d/17-kD8esWTydaBDoBzgfaPNiW5g5GBNNF/view?usp=drivesdk',
   },
   skills: [
   'Spring Framework',
@@ -63,13 +63,6 @@ const CONFIG = {
   'Debugging & Error Handling',
 ],
   experiences: [
-    {
-      company: 'Tech Solutions Pvt Ltd',
-      position: 'Software Engineer Intern',
-      from: 'July 2024',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
     {
       company: 'Freelance Projects',
       position: 'Full Stack Developer',
