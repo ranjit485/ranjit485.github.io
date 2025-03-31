@@ -101,10 +101,10 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'dark',
+    defaultTheme: 'night',
     disableSwitch: false,
     respectPrefersColorScheme: true,
-    displayAvatarRing: true,
+    displayAvatarRing: false,
     themes: ['business', 'light', 'dark', 'lofi', 'luxury', 'night', 'winter'],
     customTheme: {
       primary: '#0d6efd',
