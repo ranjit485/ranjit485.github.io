@@ -101,7 +101,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'dark',
     disableSwitch: false,
     respectPrefersColorScheme: true,
     displayAvatarRing: true,
