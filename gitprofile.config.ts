@@ -16,7 +16,7 @@ const CONFIG = {
         {
           title: 'Farm Genius',
           description: 'Farm Genius is a next-gen smart farming platform combining AI, real-time weather, offline-first mobile tech, and location intelligence to solve real problems for real farmer From detecting plant diseases using AI, to locating the nearest market, predicting the weather, and working offline in remote areas — it’s designed to uplift rural agriculture with the power of technology.',
-          imageUrl: 'https://raw.githubusercontent.com/ranjit485/krushiMitra/refs/heads/master/app/src/main/res/drawable/spashlogo.png',
+          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkY092-M9TBiy2I25H-yByjLy-_kYyIqm2KPRlOJA_xvo86zDgxVyDjKt&s=10',
           link: 'https://github.com/ranjit485/krushiMitra',
         },
       ],
@@ -106,7 +106,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'business',
+    defaultTheme: 'luxury',
     disableSwitch: false,
     respectPrefersColorScheme: true,
     displayAvatarRing: false,
