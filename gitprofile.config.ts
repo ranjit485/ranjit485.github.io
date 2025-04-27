@@ -13,6 +13,12 @@ const CONFIG = {
           imageUrl: 'https://presentsir-app.netlify.app/assets/images/appicon.png',
           link: 'https://presentsir-app.netlify.app/',
         },
+        {
+          title: 'Farm Genius',
+          description: 'Farm Genius is a next-gen smart farming platform combining AI, real-time weather, offline-first mobile tech, and location intelligence to solve real problems for real farmer From detecting plant diseases using AI, to locating the nearest market, predicting the weather, and working offline in remote areas — it’s designed to uplift rural agriculture with the power of technology.',
+          imageUrl: 'https://raw.githubusercontent.com/ranjit485/krushiMitra/refs/heads/master/app/src/main/res/drawable/spashlogo.png',
+          link: 'https://github.com/ranjit485/krushiMitra',
+        },
       ],
     },
     github: {
@@ -31,7 +37,6 @@ const CONFIG = {
   },
   social: {
     linkedin: 'ranjit485',
-    instagram: '_ranjit_patil',
     website: 'https://ranjit485.blogspot.com/?m=1',
     phone: '7499491002',
     email: 'patilranjit485@gmail.com',
@@ -101,7 +106,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'night',
+    defaultTheme: 'business',
     disableSwitch: false,
     respectPrefersColorScheme: true,
     displayAvatarRing: false,
