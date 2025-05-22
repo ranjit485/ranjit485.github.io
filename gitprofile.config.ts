@@ -19,6 +19,12 @@ const CONFIG = {
           imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkY092-M9TBiy2I25H-yByjLy-_kYyIqm2KPRlOJA_xvo86zDgxVyDjKt&s=10',
           link: 'https://github.com/ranjit485/krushiMitra',
         },
+        {
+          title: 'FreeTube',
+          description: 'FreeTube is a feature-rich Android movie app where users can explore and save movies, with support for multiple languages and seamless YouTube integration for trailer viewing.',
+          imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXkY092-M9TBiy2I25H-yByjLy-_kYyIqm2KPRlOJA_xvo86zDgxVyDjKt&s=10',
+          link: 'https://github.com/ranjit485/freetube',
+        },
       ],
     },
     github: {
